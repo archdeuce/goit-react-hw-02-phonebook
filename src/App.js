@@ -51,7 +51,7 @@ class App extends Component {
     const contacts = this.filteredContacts();
 
     return (
-      <div>
+      <div className="container">
         <h1>Phonebook</h1>
         <ContactForm onCreate={this.onCreate} />
 

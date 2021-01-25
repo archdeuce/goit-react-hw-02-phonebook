@@ -11,7 +11,7 @@ class Filter extends Component {
     return (
       <div className="Filter__container">
         <label className="Filter__label" htmlFor="filterId">
-          Find contacts by name
+          Find contacts by name:
         </label>
         <input
           className="Filter__input"
