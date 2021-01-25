@@ -24,6 +24,7 @@ class App extends Component {
     this.setState(prevState => {
       return {
         contacts: [newContact, ...prevState.contacts],
+        filter: '',
       };
     });
   };
