@@ -45,6 +45,7 @@ class ContactForm extends Component {
             id="nameId"
             name="name"
             type="text"
+            autocomplete="false"
             value={name}
             onChange={this.changeHandler}
           ></input>
@@ -56,6 +57,7 @@ class ContactForm extends Component {
             id="telId"
             name="number"
             type="tel"
+            autocomplete="false"
             value={number}
             onChange={this.changeHandler}
           ></input>

@@ -17,6 +17,7 @@ class Filter extends Component {
           className="Filter__input"
           id="filterId"
           type="text"
+          autocomplete="false"
           onChange={this.inputHandler}
         ></input>
       </div>
